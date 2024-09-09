@@ -30,7 +30,7 @@ To simulate the login, **json-server** is used with a `db.json` file.
     npm install -g json-server
     ```
 
-2. Start the API:
+2. Start the API in backend folder:
 
     ```bash
     json-server --watch db.json --port 3001
