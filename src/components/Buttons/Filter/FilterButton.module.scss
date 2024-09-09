@@ -1,0 +1,39 @@
+.filter__container {
+  button {
+    color: $primary-blue;
+    background-color: $neutral-white;
+    border: 1px solid $secondary-blue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: $primary-font;
+    border-radius: $space-xs !important;
+    font-weight: 550;
+    margin-top: $space-xs;
+    width: 300px;
+    @media (min-width: $tablet) {
+      margin-top: 0;
+    }
+    &::hover {
+      color: lighten($primary-blue, 2%);
+    }
+  }
+}
+.button__container {
+  width: 300px;
+}
+.chevron__btn {
+  margin-right: $space-s;
+  color: $primary-blue;
+}
+.input__container {
+  @media (min-width: $tablet) {
+    width: 300px;
+  }
+}
+.div__filter {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+}

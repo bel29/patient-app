@@ -1,0 +1,56 @@
+.modal {
+  font-family: $primary-font;
+}
+.description {
+  height: fit-content;
+}
+.modal__body {
+  label {
+    font-family: $primary-font;
+    font-size: $font-size-md;
+    color: $primary-black;
+    line-height: 28.8px;
+    font-weight: 700;
+  }
+  input {
+    font-family: $primary-font;
+    background-color: $secondary-blue;
+    font-size: $font-size-md;
+    color: $primary-black;
+    line-height: 28.8px;
+    font-weight: 400;
+  }
+}
+
+.avatar__container {
+  justify-content: center;
+  position: relative;
+  width: fit-content;
+}
+
+.avatar__image {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.avatar__edit {
+  position: absolute;
+  bottom: 0;
+  right: calc(50% - 60px); /* Colocar el lápiz centrado respecto al avatar */
+  background-color: white;
+  border-radius: 50%;
+  padding: 8px;
+  cursor: pointer;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Pequeña sombra para resaltar */
+  transition: background-color 0.2s ease;
+}
+
+.avatar__edit:hover {
+  background-color: #f0f0f0;
+}
+
+.avatar__input {
+  display: none; /* Ocultamos el input de archivo */
+}

@@ -1,0 +1,52 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  max-width: 100%;
+  font-family: $primary-font;
+  padding: $space-s;
+  border-radius: $space-xs;
+  font-weight: 600;
+  overflow: scroll;
+  flex-wrap: nowrap !important;
+}
+
+.table__header {
+  flex-wrap: nowrap;
+  width: 100%;
+  @media (min-width: $tablet) {
+    justify-content: space-between;
+  }
+}
+.table__header > div {
+  width: fit-content;
+}
+.content__container {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  max-width: 100%;
+  font-family: $primary-font;
+  padding: $space-s;
+  border-radius: $space-xs;
+  font-weight: 400;
+  overflow: scroll;
+  flex-wrap: nowrap !important;
+  @media (min-width: $tablet) {
+    margin-top: $space-l;
+  }
+}
+.table__content > div {
+  flex-wrap: nowrap;
+  display: flex;
+}
+.table__content > div > div {
+  display: flex;
+  height: fit-content;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  white-space: normal;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+}

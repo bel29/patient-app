@@ -1,0 +1,82 @@
+/* Colors */
+$primary-red: #ff0000;
+$primary-blue: #2260ff;
+$primary-black: #101010;
+
+$secondary-red: #fad8d8;
+$secondary-blue: #ecf1ff;
+
+$neutral-black: #000000;
+$neutral-white: #ffffff;
+$neutral-transparency-black: rgba(0, 0, 0, 0.5);
+$neutral-light-gray: #f1f1f1;
+$neutral-gray: #7f7d7d;
+
+/* Default fonts */
+$primary-font: "DIN Next Rounded LT Pro", Arial, Helvetica, sans-serif;
+
+/* Sizes */
+$text-xs: 12px;
+$text-s: 14px;
+$text-md: 16px;
+$h3: 16px;
+$h2: 20px;
+$h1: 24px;
+$h1-web: 45.7px;
+$h2web: 24px;
+$button: 16px;
+
+/* Font sizes */
+$font-size_xs: 12px;
+$font-size_s: 14px;
+$font-size_md: 16px;
+$font-size_l: 20px;
+$font-size_xl: 30px;
+$font-size_h1-web: 45.7px;
+
+$line-height_xs: 14.4px;
+$line-height_s: 16.8px;
+$line-height_md: 19.2px;
+$line-height_h1-web: 39.35px;
+
+/* Screen Sizes */
+$sm: 576px;
+$md: 768px;
+$lg: 992px;
+$xl: 1200px;
+$xxl: 1400px;
+
+$tablet: $md;
+$mobile: $sm;
+$pc: $lg;
+
+/* Spaces */
+$space-2xs: 2px;
+$space-xs: 8px;
+$space-s: 12px;
+$space-m: 16px;
+$space-l: 24px;
+$space-xl: 32px;
+$space-2xl: 40px;
+$space-3xl: 48px;
+$space-4xl: 64px;
+$space-5xl: 80px;
+$space-6xl: 96px;
+$space-7xl: 112px;
+
+@media (min-width: $md) {
+  $space-3xl: 56px;
+  $space-4xl: 72px;
+  $space-5xl: 88px;
+  $space-6xl: 120px;
+  $space-7xl: 152px;
+}
+
+@media (min-width: $lg) {
+  $space-2xl: 48px;
+  $space-3xl: 64px;
+  $space-4xl: 96px;
+  $space-5xl: 142px;
+  $space-6xl: 192px;
+  $space-7xl: 256px;
+}

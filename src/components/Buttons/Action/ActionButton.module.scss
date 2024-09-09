@@ -1,0 +1,62 @@
+.actionButton {
+  font-family: $primary-font;
+  font-weight: bold;
+  background-color: $neutral-white;
+  padding: 0.5rem 1.5rem;
+  border-radius: 8px;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+  &.btn__outline__custom__danger {
+    color: $primary-blue !important;
+    border-color: $primary-blue !important;
+    margin-right: $space-xs;
+    @media (min-width: $tablet) {
+      margin-right: $space-l;
+    }
+  }
+  &:active {
+    background-color: $neutral-white;
+    transform: scale(0.98);
+  }
+  &:hover {
+    background-color: $neutral-white;
+    transform: scale(0.98);
+  }
+  &:focus {
+    outline: none;
+    background-color: $neutral-white !important;
+    box-shadow: 0 0 0 3px $neutral-white;
+  }
+  &.btn__custom__danger {
+    background-color: $primary-blue !important;
+    border-color: $primary-blue !important;
+    color: $neutral-white;
+    &:active {
+      background-color: $neutral-white;
+      transform: scale(0.98);
+    }
+    &:hover {
+      background-color: $neutral-white;
+      transform: scale(0.98);
+    }
+    &:focus {
+      outline: none;
+      background-color: $neutral-white;
+      box-shadow: 0 0 0 3px $neutral-white;
+    }
+  }
+}
+.fullWidth {
+  width: 100%;
+
+  margin-right: 0px !important;
+}
+.border__Radius__Left {
+  border-radius: 0 0 0px 8px;
+}
+.border__Radius__Right {
+  border-radius: 0 0 8px 0px;
+}
+.border__Radius__Custom {
+  border-radius: 0 0 8px 8px;
+}

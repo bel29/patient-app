@@ -1,0 +1,138 @@
+.container {
+  background-color: $neutral-light-gray;
+  height: 100%;
+  max-width: 100%;
+  margin-top: 66px;
+  width: 100%;
+  padding: $space-2xl;
+
+  font-family: $primary-font;
+
+  @media (min-width: $tablet) {
+    margin-left: 350px;
+    margin-top: 170px;
+    padding: $space-5xl;
+    width: calc(100% - 350px);
+  }
+}
+
+.card {
+  border-radius: $space-m;
+  background-color: $secondary-blue;
+  padding: 0px $space-m;
+
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  margin: $space-m;
+  font-family: $primary-font;
+  width: 400px;
+  .col-lg-6 {
+    padding-left: 0px;
+  }
+}
+.card__row {
+  max-width: 100%;
+}
+.avatar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  overflow: hidden;
+  height: 100px;
+  width: 100px;
+  padding: 0px;
+  margin-right: $space-m;
+
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+
+.patient__info {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 100%;
+  max-height: 200px;
+
+  .patient__name {
+    font-size: $font-size-md;
+    font-weight: bold;
+    color: $primary-blue;
+  }
+
+  .patient__description {
+    font-size: 1rem;
+    color: gray;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    white-space: normal;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    height: 100%;
+  }
+}
+.patient_button {
+  display: flex;
+}
+
+.patient__actions {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: $space-4xl;
+
+  .action__btn {
+    background-color: $primary-blue;
+    color: $neutral-white;
+    border-radius: $space-xs;
+    padding: $space-xs $space-4xl;
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 1rem;
+    width: 100%;
+
+    &:hover {
+      background-color: lighten($primary-blue, 2%);
+    }
+  }
+
+  .icon__btn {
+    background-color: $neutral-white;
+    color: $primary-blue;
+    border-radius: 50%;
+    padding: 10px;
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    border: 1px solid $primary-blue;
+
+    &:hover {
+      background-color: $secondary-blue;
+    }
+  }
+}
+.patient__extraInfo {
+  color: $neutral-gray;
+  margin-top: $space-l;
+  border-top: 1px solid $neutral-gray;
+  border-bottom: 1px solid $neutral-gray;
+  p {
+    margin-top: $space-l;
+  }
+}

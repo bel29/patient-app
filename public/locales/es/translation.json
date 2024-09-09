@@ -1,0 +1,55 @@
+{
+  "welcome": "¡Bienvenido a nuestra aplicación!",
+  "notFound": "404 - No encontrado",
+  "edit": "Editar",
+  "save": "Guardar",
+  "cancel": "Cancelar",
+  "close": "Cerrar",
+  "pageNotFound": "Página no encontrada",
+  "isRequired": "es requerido.",
+  "invalidCharacters": "contiene caracteres inválidos.",
+  "invalidURL": "tiene un formato de URL inválido.",
+  "Patients": "Pacientes",
+  "PatientsList": "Lista de Pacientes",
+  "login": {
+    "username": "Nombre de usuario",
+    "password": "Contraseña",
+    "signIn": "Iniciar sesión",
+    "forgotPassword": "¿Olvidaste tu contraseña?",
+    "register": "¿Aún no estás registrado?"
+  },
+  "patients": {
+    "name": "Nombre",
+    "description": "Descripción",
+    "website": "Sitio web",
+    "id": "Id",
+    "createdAt": "Creado en",
+    "filterOptions": {
+      "name": "Nombre",
+      "description": "Descripción",
+      "website": "Sitio web",
+      "id": "Id"
+    },
+    "loading": "Cargando pacientes...",
+    "errorFetching": "Error al recuperar los registros de pacientes",
+    "updateSuccess": "¡Información del paciente actualizada con éxito!",
+    "addPatient": "Agregar paciente"
+  },
+  "filterButton": {
+    "retrieveData": "Recuperar datos",
+    "searchPlaceholder": "Buscar...",
+    "selectFilter": "Seleccionar filtro",
+    "searchBy": "Buscar por"
+  },
+  "sidebar": {
+    "patients": "Pacientes",
+    "patientsList": "Lista de pacientes",
+    "profile": "Perfil",
+    "logOut": "Cerrar sesión"
+  },
+  "logOut": {
+    "title": "¿Estás seguro de que deseas cerrar sesión?",
+    "continue": "Continuar en el sitio",
+    "exit": "Cerrar sesión"
+  }
+}

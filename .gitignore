@@ -1,0 +1,46 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Vite
+dist/
+.vite/
+.vitest/
+*.env
+*.env.local
+*.env.*.local
+
+# Editor/IDE
+.vscode/
+.idea/
+.DS_Store
+*.sublime-project
+*.sublime-workspace
+
+# Logs
+logs
+*.log
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Build directories
+build/
+coverage/
+output/
+
+# JSON Server
+db.json
+
+# Typescript
+*.tsbuildinfo
+
+# Misc
+*.swp
+*.tmp
+*.bak
+*.orig
+*.patch

@@ -1,0 +1,31 @@
+.container {
+  background-color: $neutral-light-gray;
+  height: 100%;
+  max-width: 100%;
+  background-image: url("/images/bg_vector.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin-top: 66px;
+  width: 100%;
+  padding: $space-2xl;
+
+  @media (min-width: $tablet) {
+    margin-left: 350px;
+    margin-top: 170px;
+    padding: $space-5xl;
+    width: calc(100% - 350px);
+  }
+}
+.custom__table_div {
+  @media (min-width: $tablet) {
+    margin-top: $space-5xl;
+  }
+}
+.add__button {
+  margin-bottom: $space-l;
+}
+.loader {
+  display: flex;
+  justify-content: center;
+}

@@ -1,0 +1,56 @@
+{
+  "welcome": "Welcome to our application!",
+  "title": "Patient Management",
+  "notFound": "404 - Not Found",
+  "edit": "Edit",
+  "save": "Save",
+  "cancel": "Cancel",
+  "close": "Close",
+  "pageNotFound": "Page not found",
+  "isRequired": "is required.",
+  "invalidCharacters": "has invalid Characters.",
+  "invalidURL": "has invalid URL format.",
+  "Patients": "Patients",
+  "PatientsList": "Patients List",
+  "login": {
+    "username": "Username",
+    "password": "Password",
+    "signIn": "Sign In",
+    "forgotPassword": "Did you forget your password?",
+    "register": "Aren't you registered yet?"
+  },
+  "patients": {
+    "name": "Name",
+    "description": "Description",
+    "website": "Website",
+    "id": "Id",
+    "createdAt": "Created At",
+    "filterOptions": {
+      "name": "Name",
+      "description": "Description",
+      "website": "Website",
+      "id": "Id"
+    },
+    "loading": "Loading patients...",
+    "errorFetching": "Error fetching patient records",
+    "updateSuccess": "Patient info updated successfully!",
+    "addPatient": "Add patient"
+  },
+  "filterButton": {
+    "retrieveData": "Retrieve Data",
+    "searchPlaceholder": "Search...",
+    "selectFilter": "Select Filter",
+    "searchBy": "Search By"
+  },
+  "sidebar": {
+    "patients": "Patients",
+    "patientsList": "Patients List",
+    "profile": "Profile",
+    "logOut": "Log out"
+  },
+  "logOut": {
+    "title": "¿Are you sure you want to log out?",
+    "continue": "Continue in the site",
+    "exit": "Log out"
+  }
+}

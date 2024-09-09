@@ -1,0 +1,151 @@
+.sidebar {
+  z-index: 100;
+  width: 350px;
+  background-color: $neutral-white;
+  height: 100%;
+  padding: 20px;
+  position: fixed;
+  transition: transform 0.3s ease-in-out;
+  transform: translateX(-100%);
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+
+  &.sidebar_open {
+    transform: translateX(0);
+  }
+
+  @media (min-width: $tablet) {
+    transform: translateX(0);
+  }
+}
+
+.sidebar__main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: $neutral-white;
+  @media (min-width: $tablet) {
+    margin-bottom: $space-4xl;
+  }
+}
+
+.sidebar__brand {
+  display: flex;
+  justify-content: center;
+  width: 100px;
+}
+
+.sidebar__logo {
+  width: 100px;
+  margin: $space-l;
+}
+
+.sidebar__nav {
+  padding-left: 0;
+}
+
+.sidebar__link__active {
+  margin: 10px 20px;
+  display: flex;
+  align-items: center;
+  padding: 12px;
+  color: $neutral-white;
+  background-color: $primary-blue;
+  border-radius: 10px;
+  font-size: $font-size-md;
+  font-family: $primary-font;
+  font-weight: 400;
+  text-decoration: none;
+
+  &:hover {
+    background-color: darken($primary-blue, 10%);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transform: scale(1.02);
+    color: $neutral-white;
+  }
+}
+
+.sidebar__link {
+  margin: 10px 20px;
+  display: flex;
+  align-items: center;
+  padding: 12px;
+  color: $primary-blue;
+  background-color: $secondary-blue;
+  border-radius: 10px;
+  font-size: $font-size-md;
+  font-family: $primary-font;
+  font-weight: 400;
+  text-decoration: none;
+
+  &:hover {
+    background-color: lighten($secondary-blue, 2%);
+    color: $primary-blue;
+    transform: scale(1.02);
+  }
+}
+
+.sidebar__icon {
+  margin-right: 10px;
+  color: $primary-blue;
+}
+
+.sidebar__icon__active {
+  color: $neutral-white;
+  margin-right: 10px;
+}
+
+.sidebar__icon__right {
+  color: $primary-black;
+
+  &:hover {
+    color: $primary-blue;
+  }
+}
+
+.sidebar__icon__right__active {
+  color: $neutral-white;
+}
+
+.sidebar__icon__label {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+}
+
+.sidebar__footer {
+  margin-top: auto;
+}
+
+.sidebar__toggle {
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  background-color: $neutral-white;
+  color: $neutral-black;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  z-index: 1000;
+  display: block;
+
+  @media (min-width: $tablet) {
+    display: none;
+  }
+}
+
+.sidebar__profile {
+  cursor: pointer;
+  justify-content: center;
+  margin: 10px 20px;
+  color: $neutral-white;
+  background-color: $primary-blue;
+  font-family: $primary-font;
+  padding: $space-s;
+  border-radius: $space-xs;
+  @media (min-width: $tablet) {
+    display: none;
+  }
+}

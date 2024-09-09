@@ -1,0 +1,22 @@
+.close__button {
+  display: flex;
+  justify-content: flex-end;
+}
+.close__button > button {
+  opacity: 1;
+  font-size: $font-size_xs;
+}
+.modal {
+  padding: $space-m $space-l;
+  font-family: $primary-font;
+}
+.modal__title {
+  font-size: $font-size_l;
+  font-weight: 700;
+}
+.footer {
+  @media (max-width: $mobile) {
+    display: flex;
+    flex-direction: column;
+  }
+}
