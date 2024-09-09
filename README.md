@@ -78,6 +78,6 @@ VITE_BACKEND_API_URL=[http://localhost:3001/users](http://localhost:3001/users)
     npm start
     ```
 
-2. Access the application in your browser at [http://localhost:3000](http://localhost:3000).
+2. Access the application in your browser at [http://localhost:5173/](http://localhost:5173).
 
 3. To test the login, ensure json-server is running at [http://localhost:3001](http://localhost:3001) and use the provided credentials.
